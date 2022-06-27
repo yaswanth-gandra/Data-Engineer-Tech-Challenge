@@ -15,7 +15,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # For example, running this (by clicking run or pressing Shift+Enter) will list all files under the input directory
 
 import os
-for dirname, _, filenames in os.walk('/kaggle/input'):
+for dirname, _, filenames in os.walk('/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 
